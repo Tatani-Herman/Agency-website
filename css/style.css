@@ -6,8 +6,16 @@ body {
 }
 
 /*============= TOP BAR HEADER =============*/
-
-
+.top-bar {
+  background: darkgray;
+  height: 2.8rem;
+  padding: .5rem 0;
+}
+.tap-bar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
 
 /*============= NAVIGATION =============*/
 
