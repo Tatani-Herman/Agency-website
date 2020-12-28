@@ -152,7 +152,7 @@
 
 
 	<!-- Emoji Navbar First -->
-
+<a class="navbar bg-primary sticky-top emoji" href="#emoji" role="button" data-toggle="collapse"></a>
 
 	<!-- Start Fixed Background IMG -->
 <div class="fixed-background">
@@ -162,8 +162,8 @@
 			  <h1>Advance to the next level</h1>
 			  <h3 class="py-4">..See what's on the other side</h3>
 
-			  <a href="#" class="btn btn-primary btn-lg mr-2">Blue pill</a>
-			  <a href="#" class="btn btn-danger btn-lg ml-2">Red pill</a>
+			  <button type="button" data-toggle="modal" data-target="#modal1" class="btn btn-primary btn-lg mr-2">Blue pill</button>
+			  <button type="button" data-toggle="modal" data-target="#modal2" class="btn btn-danger btn-lg ml-2">Red pill</button>
 		  </div>
 	  </div>
 
@@ -175,11 +175,30 @@
  
 	
 	<!-- Emoji Navbar Second -->
+	<a class="navbar bg-primary sticky-top emoji" href="#emoji" role="button" data-toggle="collapse">
+		<i class="fas fa-plug"></i>
+	</a>
 
-
+	<div id="emoji">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-md-3"><img src="img/emoji/panda.gif" alt="" class="w-100"></div>
+				<div class="col-sm-6 col-md-3"><img src="img/emoji/poo.gif" alt="" class="w-100"></div>
+				<div class="col-sm-6 col-md-3"><img src="img/emoji/unicorn.gif" alt="" class="w-100"></div>
+				<div class="col-sm-6 col-md-3"><img src="img/emoji/chicken.gif" alt="" class="w-100"></div>
+			</div>
+		</div>
+	</div>
 	<!-- Modal Popup -->
+<div class="modal fade" id="modal1">
+	<div class="modal-dialog">
+		<img src="img/emoji/poo.gif" alt="" class="w-10"></div>
+</div>
 
-		
+<div class="modal fade" id="modal2">
+	<div class="modal-dialog">
+		<img src="img/emoji/chicken.gif" alt="" class="w-10"></div>
+</div>
 	<!-- Start Two Column Section -->
 
 	<!-- End Two Column Section -->
