@@ -95,7 +95,13 @@ body {
   border: .05rem solid #68a0d2!important;
 }
 /*===== FIXED BACKGROUND IMG =====*/
-
+.fixed {
+  background-image: url('../img/matrix.jpg');
+  position: fixed;
+}
+.fixed-background {
+  padding: 10rem 0;
+}
 
 
 /*-- Emoji Navbar --*/
