@@ -7,12 +7,12 @@ body {
 
 /*============= TOP BAR HEADER =============*/
 .top-bar {
-  background: #cfe8f3;
+  background: #44baec;
   height: 2.8rem;
   padding: .5rem 0;
 }
-.tap-bar a {
-  color: #ffffff !important;
+.top-bar a {
+  color: #ffffff;
   text-decoration: none;
   font-size: 1.1rem;
 }
